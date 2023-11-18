@@ -15,8 +15,23 @@
 
 #EJERCICIO 10 BUCLES Patron de asteriscos
 
-def cant_asteriscos(filas):
-    for i in range (1, filas + 1):
-        print('* ' * i)
+# def cant_asteriscos(filas):
+#     for i in range (1, filas + 1):
+#         print('* ' * i)
 
-cant_asteriscos(5)           
+# cant_asteriscos(5)      
+
+
+#EJERCICIO 15 CONDICIONALES Y BUCLES
+
+def imprimir_asteriscos(fila):
+    for x in range(1, fila + 1):
+        if x % 2 == 0:
+            print('*' * x)
+        else:
+            print('+' * x)    
+      
+imprimir_asteriscos(2)            
+
+
+     
